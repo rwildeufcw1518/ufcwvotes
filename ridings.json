@@ -1,0 +1,746 @@
+{
+  "Abbotsford-Mission": {
+    "new_riding": "N",
+    "notional_majority": 744,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Abbotsford South": {
+    "new_riding": "N",
+    "notional_majority": 2224,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Abbotsford West": {
+    "new_riding": "N",
+    "notional_majority": 1761,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Boundary-Similkameen": {
+    "new_riding": "N",
+    "notional_majority": 2765,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Bulkley Valley-Stikine": {
+    "new_riding": "N",
+    "notional_majority": 1641,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Burnaby Centre": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Burnaby East": {
+    "new_riding": "N",
+    "notional_majority": 7188,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Burnaby-New Westminster": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Burnaby North": {
+    "new_riding": "N",
+    "notional_majority": 6048,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Burnaby South-Metrotown": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Cariboo-Chilcotin": {
+    "new_riding": "N",
+    "notional_majority": 2420,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Chilliwack-Cultus Lake": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Chilliwack North": {
+    "new_riding": "N",
+    "notional_majority": 2247,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Columbia River-Revelstoke": {
+    "new_riding": "N",
+    "notional_majority": 1326,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Coquitlam-Burke Mountain": {
+    "new_riding": "N",
+    "notional_majority": 4303,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Coquitlam-Maillardville": {
+    "new_riding": "N",
+    "notional_majority": 6396,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Courtenay-Comox": {
+    "new_riding": "N",
+    "notional_majority": 6008,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Cowichan Valley": {
+    "new_riding": "N",
+    "notional_majority": 1184,
+    "held_by": "Green",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Delta North": {
+    "new_riding": "N",
+    "notional_majority": 5036,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Delta South": {
+    "new_riding": "N",
+    "notional_majority": 4424,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Esquimalt-Colwood": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Fraser-Nicola": {
+    "new_riding": "N",
+    "notional_majority": 282,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Juan de Fuca-Malahat": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Kamloops Centre": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Kamloops-North Thompson": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Kelowna Centre": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Kelowna-Lake Country-Coldstream": {
+    "new_riding": "N",
+    "notional_majority": 7558,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Kelowna-Mission": {
+    "new_riding": "N",
+    "notional_majority": 4878,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Kootenay Central": {
+    "new_riding": "N",
+    "notional_majority": 1685,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Kootenay-Monashee": {
+    "new_riding": "N",
+    "notional_majority": 7782,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Kootenay-Rockies": {
+    "new_riding": "N",
+    "notional_majority": 4398,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Ladysmith-Oceanside": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Langford-Highlands": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Langley-Abbotsford": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Langley-Walnut Grove": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Langley-Willowbrook": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Maple Ridge East": {
+    "new_riding": "Y",
+    "notional_majority": 7712,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Maple Ridge-Pitt Meadows": {
+    "new_riding": "N",
+    "notional_majority": 6714,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Mid Island-Pacific Rim": {
+    "new_riding": "N",
+    "notional_majority": 9307,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Nanaimo-Gabriola Island": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Nanaimo-Lantzville": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Nechako Lakes": {
+    "new_riding": "N",
+    "notional_majority": 1580,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "New Westminster-Coquitlam": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "North Coast-Haida Gwaii": {
+    "new_riding": "N",
+    "notional_majority": 3115,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "North Island": {
+    "new_riding": "N",
+    "notional_majority": 6563,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "North Vancouver-Lonsdale": {
+    "new_riding": "N",
+    "notional_majority": 8604,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "North Vancouver-Seymour": {
+    "new_riding": "N",
+    "notional_majority": 3064,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Oak Bay-Gordon Head": {
+    "new_riding": "N",
+    "notional_majority": 7386,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Peace River North": {
+    "new_riding": "N",
+    "notional_majority": 2596,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Peace River South": {
+    "new_riding": "N",
+    "notional_majority": 1559,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Penticton-Summerland": {
+    "new_riding": "N",
+    "notional_majority": 2874,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Port Coquitlam": {
+    "new_riding": "N",
+    "notional_majority": 10361,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Port Moody-Burquitlam": {
+    "new_riding": "N",
+    "notional_majority": 5530,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Powell River-Sunshine Coast": {
+    "new_riding": "N",
+    "notional_majority": 4597,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Prince George-Mackenzie": {
+    "new_riding": "N",
+    "notional_majority": 2826,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Prince George-North Caribou": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Prince George-Valemount": {
+    "new_riding": "N",
+    "notional_majority": 4986,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Richmond-Bridgeport": {
+    "new_riding": "N",
+    "notional_majority": 1709,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Richmond Centre": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Richmond-Queensborough": {
+    "new_riding": "N",
+    "notional_majority": 1678,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Richmond-Steveston": {
+    "new_riding": "N",
+    "notional_majority": 1335,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Saanich North and the Islands": {
+    "new_riding": "N",
+    "notional_majority": 7907,
+    "held_by": "Green",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Saanich South": {
+    "new_riding": "N",
+    "notional_majority": 8582,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Salmon Arm-Shuswap": {
+    "new_riding": "N",
+    "notional_majority": 4484,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Skeena": {
+    "new_riding": "N",
+    "notional_majority": 849,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Surrey City Centre": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Surrey-Cloverdale": {
+    "new_riding": "N",
+    "notional_majority": 4234,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Surrey-Fleetwood": {
+    "new_riding": "N",
+    "notional_majority": 5681,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Surrey-Guildford": {
+    "new_riding": "N",
+    "notional_majority": 5264,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Surrey-Newton": {
+    "new_riding": "N",
+    "notional_majority": 4982,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Surrey North": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Surrey-Panorama": {
+    "new_riding": "N",
+    "notional_majority": 2729,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Surrey-Serpentine River": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Surrey South": {
+    "new_riding": "N",
+    "notional_majority": 2347,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Surrey-White Rock": {
+    "new_riding": "N",
+    "notional_majority": 224,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Vancouver-Fraserview": {
+    "new_riding": "N",
+    "notional_majority": 4736,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Vancouver-Hastings": {
+    "new_riding": "N",
+    "notional_majority": 9050,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Vancouver-Kensington": {
+    "new_riding": "N",
+    "notional_majority": 7226,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Vancouver-Langara": {
+    "new_riding": "N",
+    "notional_majority": 1457,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Vancouver-Little Mountain": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Vancouver-Point Grey": {
+    "new_riding": "N",
+    "notional_majority": 4890,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Vancouver-Quilchena": {
+    "new_riding": "N",
+    "notional_majority": 3610,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Vancouver-Renfrew": {
+    "new_riding": "N",
+    "notional_majority": 8378,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Vancouver-South Granville": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Vancouver-Strathcona": {
+    "new_riding": "N",
+    "notional_majority": 10174,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Vancouver-West End": {
+    "new_riding": "N",
+    "notional_majority": 8425,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Vancouver-Yaletown": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Vernon-Lumby": {
+    "new_riding": "Y",
+    "notional_majority": 424,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Victoria-Beacon Hill": {
+    "new_riding": "N",
+    "notional_majority": 7443,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "Victoria-Swan Lake": {
+    "new_riding": "N",
+    "notional_majority": 7548,
+    "held_by": "NDP",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "West Kelowna-Peachland": {
+    "new_riding": "Y",
+    "notional_majority": 0,
+    "held_by": "None",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "West Vancouver-Capilano": {
+    "new_riding": "N",
+    "notional_majority": 5540,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  },
+  "West Vancouver-Sea to Sky": {
+    "new_riding": "N",
+    "notional_majority": 60,
+    "held_by": "BCU",
+    "event_1": "Placeholder.",
+    "event_2": "Placeholder.",
+    "event_3": "Placeholder."
+  }
+}
