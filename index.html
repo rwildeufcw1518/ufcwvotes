@@ -59,7 +59,9 @@ function getConstituencyData(constituency) {  fetch(`https://raw.githubuserconte
       let majorityString = majority.toString();
       if (data[constituency].new_riding == "Y")       {
         constituencyInfo.innerHTML = `This is a new riding for the 2024 election, so may be different to the seat where you voted in 2020.` 
-      }
+      } else {
+        constituencyInfo.innerHTML = ``
+      }    
     })
   .catch((error) => {
     console.log("Error!");
