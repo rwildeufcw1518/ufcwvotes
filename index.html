@@ -1,4 +1,199 @@
-<link rel="stylesheet" href="https://use.typekit.net/lhr8wee.css">
+<head><link rel="stylesheet" href="https://use.typekit.net/lhr8wee.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+  
+// Grab form element from page
+const form = document.querySelector("#postcode")
+const outputText = document.querySelector("#outputText")
+const constituencyName = document.querySelector("#constituencyName")
+const constituencyInfo = document.querySelector("#constituencyInfo")
+const errorMessage = document.querySelector("#error")
+let constituency = undefined
+
+// Capture form data
+  window.addEventListener("load", function() {
+  form.addEventListener("submit", function(e) {
+    const captureData = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: captureData,
+    })
+  });
+});
+  
+  
+form.addEventListener("submit", e => {
+  // Stop page refreshing
+  e.preventDefault()
+  error.style.display = "none";
+
+  // Make form data accessible as JS variable
+  let formData = new FormData(form)
+  let postcode = formData.get("postcode")
+  
+function getConstituencyData(constituency) {  fetch(`https://raw.githubusercontent.com/rwildeufcw1518/ufcwvotes/main/ridings.json`)
+  .then((response) => {
+  if (response.status === 200) {
+    return response.json();
+    console.log("Data OK!")
+  }
+    throw new Error('Something went wrong');
+})
+    .then(data => {
+      let incumbent = ""
+      let majority = 0
+      switch (data[constituency].held_by) {
+        case "NDP":
+          incumbent = "the BC NDP";
+          break;
+        case "BCU":
+          incumbent = "the BC Liberals, now known as BC United";
+          break;
+        case "Green":
+          incumbent = "the BC Greens";
+          break;
+      }
+      majority = data[constituency].notional_majority;
+
+      let majorityString = majority.toString();
+      if (data[constituency].new_riding == "Y")       {
+        constituencyInfo.innerHTML = `This is a new riding for the 2024 election, so may be different to the seat where you voted in 2020.` 
+      }
+    })
+  .catch((error) => {
+    console.log("Error!");
+      errorMessage.style.display = "block";
+      outputText.style.display = "none";
+});
+  
+}
+  
+function getConstituencyName(postcode) {
+  fetch(`https://represent.opennorth.ca/postcodes/${postcode}/?sets=british-columbia-electoral-districts-2023-redistribution`)
+    .then((response) => {
+  if (response.status === 200) {
+    return response.json();
+    console.log("Data OK!")
+  }
+    throw new Error('Something went wrong');
+})
+    .then(data => {
+      constituency = data.boundaries_centroid[0].name;
+      error.style.display = "none";
+      outputText.style.display = "block";
+      constituencyName.innerHTML = `Your riding is ${constituency}.`;
+    getConstituencyData(constituency);
+    })
+  .catch((error) => {
+    console.log("Error!");
+      errorMessage.style.display = "block";
+      outputText.style.display = "none";
+});
+  
+}
+
+getConstituencyName(postcode);
+  
+  })
+  
+});
+    </script>
+<style>
+    body {
+  padding: 50px;
+}
+
+#loading {
+  display: none;
+}
+
+#form {
+  display: flex;
+}
+
+#form input {
+  padding: 20px;
+  border: solid 1px #222222;
+  border-radius: 5px;
+}
+
+#form button {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  border: solid 1px #222222;
+}
+
+#postcode {
+  margin: auto;
+}
+
+#error {
+  display: none;
+}
+
+#outputText {
+  display: none;
+  text-align: center
+}
+
+p, li, button, input, h1, h2, h3, h4, h5, h6 {
+  font-family: "proxima-nova", sans-serif;
+}
+
+p { 
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1, h2, h3 { 
+font-weight: 700;
+font-style: normal;
+}
+
+#error {
+  font-weight: 700;
+  background-color: #ed2028;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  display: none;
+  width: max-content;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0;
+}
+
+li {
+  text-decoration: none;
+  margin: 10px;
+  padding: 25px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fec424;
+}
+
+.registrationButton {
+  margin-top: 10px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background: #222222;
+  color: #ffffff;
+  width: 100%;
+}
+</style>
+</head>
+<body>
 <div id="form">
     <form name="postcode" id="postcode" method="POST" action="https://api.sheetmonkey.io/form/a5NptC2UG2JaPQcwmyfrjN">
       <input type="text" name="postcode" minlength="6" maxlength="6" placeholder="Enter Postcode" required >
@@ -27,3 +222,4 @@
     </ul>
     </div>
 </div>
+</body>
