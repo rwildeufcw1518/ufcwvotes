@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="https://use.typekit.net/lhr8wee.css">
+<div id="form">
+    <form name="postcode" id="postcode" method="POST" action="https://api.sheetmonkey.io/form/a5NptC2UG2JaPQcwmyfrjN">
+      <input type="text" name="postcode" minlength="6" maxlength="6" placeholder="Enter Postcode" required >
+      <button name="submit" type="submit" id="submitButton" form="postcode" value="Submit">Submit</button>
+    </form>
+    <h1 id="loading">Loading...</h1>
+</div>
+
+<div id="output">
+  <p id="error">Looks like that's an invalid postcode. Please try again!</p>
+  <div id="outputText"><h1 id="constituencyName"></h1>
+    <p id="constituencyInfo"></p>
+    <p id="pollingStationInfo"><strong>You can vote at any of the following Voting Places.</strong> Voting is open from October 10-13, October 15-16, and October 19, from 8am-8pm. Not all Voting Places are open every day, so please check that the Voting Place you choose is open on the day you wish to vote. If you will be away and need to register to vote by mail, you can apply <a href="https://elections.bc.ca/2024-provincial-election/ways-to-vote/vote-by-mail/">here</a>.</p>
+    <div id="votingPlaces">
+    <ul id="advanceVotingPlaces">
+      <h3 id="advanceTitle">Advance Voting Places</h3>
+      <li id="advanceVotingPlace1"></li>
+      <li id="advanceVotingPlace2"></li>
+      <li id="advanceVotingPlace3"></li>
+    </ul>
+    <ul id="pollingDayVotingPlaces">
+      <h3 id="advanceTitle">Polling Day Voting Places</h3>
+      <li id="pollingDayVotingPlace1"></li>
+      <li id="pollingDayVotingPlace2"></li>
+      <li id="pollingDayVotingPlace3"></li>
+    </ul>
+    </div>
+</div>
