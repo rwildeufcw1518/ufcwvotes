@@ -41,22 +41,6 @@ function getConstituencyData(constituency) {  fetch(`https://raw.githubuserconte
     throw new Error('Something went wrong');
 })
     .then(data => {
-      let incumbent = ""
-      let majority = 0
-      switch (data[constituency].held_by) {
-        case "NDP":
-          incumbent = "the BC NDP";
-          break;
-        case "BCU":
-          incumbent = "the BC Liberals, now known as BC United";
-          break;
-        case "Green":
-          incumbent = "the BC Greens";
-          break;
-      }
-      majority = data[constituency].notional_majority;
-
-      let majorityString = majority.toString();
       if (data[constituency].new_riding == "Y")       {
         constituencyInfo.innerHTML = `This is a new riding for the 2024 election, so may be different to the seat where you voted in 2020.` 
       } else {
@@ -209,19 +193,5 @@ li {
   <p id="error">Looks like that's an invalid postcode. Please try again!</p>
   <div id="outputText"><h1 id="constituencyName"></h1>
     <p id="constituencyInfo"></p>
-    <div id="votingPlaces">
-    <ul id="advanceVotingPlaces">
-      <h3 id="advanceTitle">Advance Voting Places</h3>
-      <li id="advanceVotingPlace1"></li>
-      <li id="advanceVotingPlace2"></li>
-      <li id="advanceVotingPlace3"></li>
-    </ul>
-    <ul id="pollingDayVotingPlaces">
-      <h3 id="advanceTitle">Polling Day Voting Places</h3>
-      <li id="pollingDayVotingPlace1"></li>
-      <li id="pollingDayVotingPlace2"></li>
-      <li id="pollingDayVotingPlace3"></li>
-    </ul>
-    </div>
 </div>
 </body>
