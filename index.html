@@ -57,6 +57,7 @@ function getConstituencyData(constituency) {  fetch(`https://raw.githubuserconte
   
 function getConstituencyName(postcode) {
     let postcodeUpper = postcode.toUpperCase();
+    console.log(postcodeUpper);
   fetch(`https://represent.opennorth.ca/postcodes/${postcodeUpper}/?sets=british-columbia-electoral-districts-2023-redistribution`)
     .then((response) => {
   if (response.status === 200) {
