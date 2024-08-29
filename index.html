@@ -185,7 +185,7 @@ li {
 <body>
 <div id="form">
     <form name="postcode" id="postcode" method="POST" action="https://api.sheetmonkey.io/form/a5NptC2UG2JaPQcwmyfrjN">
-      <input type="text" name="postcode" minlength="6" maxlength="6" placeholder="Enter Postcode" required >
+      <input type="text" name="postcode" minlength="6" maxlength="6" placeholder="Enter Postcode" onkeypress="this.value = this.value.toUpperCase();" required >
       <button name="submit" type="submit" id="submitButton" form="postcode" value="Submit">Check</button>
     </form>
     <h1 id="loading">Loading...</h1>
