@@ -48,7 +48,7 @@ function getConstituencyData(constituency) {  fetch(`https://raw.githubuserconte
       }    
     })
   .catch((error) => {
-    console.log("Error!");
+    console.log("Error in showing New Riding info!");
       errorMessage.style.display = "block";
       outputText.style.display = "none";
 });
@@ -75,7 +75,7 @@ function getConstituencyName(postcode) {
     })
   .catch((error) => {
       console.log(data)
-    console.log("Error!");
+    console.log("Error in Showing Riding Name!");
       errorMessage.style.display = "block";
       outputText.style.display = "none";
 });
