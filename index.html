@@ -47,11 +47,11 @@ function getConstituencyData(constituency) {  fetch(`https://raw.githubuserconte
         constituencyInfo.innerHTML = ``
       }    
     })
-  /*.catch((error) => {
+  .catch((error) => {
     console.log("Error in showing New Riding info!");
       errorMessage.style.display = "block";
       outputText.style.display = "none";
-});*/
+});
   
 }
   
@@ -73,12 +73,12 @@ function getConstituencyName(postcode) {
       constituencyName.innerHTML = `Your riding is ${constituency}.`;
     getConstituencyData(constituency);
     })
-   /*.catch((error) => {
+   .catch((error) => {
       console.log(data)
     console.log("Error in Showing Riding Name!");
       errorMessage.style.display = "block";
       outputText.style.display = "none";
-});*/
+});
   
 }
 
