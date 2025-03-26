@@ -42,7 +42,7 @@ function getConstituencyData(constituency) {  fetch(`https://raw.githubuserconte
 })
     .then(data => {
       if (data[constituency].new_riding == "Y")       {
-        constituencyInfo.innerHTML = `This is a new riding for the 2024 election, so may be different to the seat where you voted in 2020.` 
+        constituencyInfo.innerHTML = `This is a new riding for the 2025 election, so may be different to the seat where you voted in 2021.` 
       } else {
         constituencyInfo.innerHTML = ``
       }    
@@ -58,7 +58,7 @@ function getConstituencyData(constituency) {  fetch(`https://raw.githubuserconte
 function getConstituencyName(postcode) {
     let postcodeUpper = postcode.toUpperCase();
     console.log(postcodeUpper);
-  fetch(`https://represent.opennorth.ca/postcodes/${postcodeUpper}/?sets=british-columbia-electoral-districts-2023-redistribution`)
+  fetch(`https://represent.opennorth.ca/postcodes/${postcodeUpper}/?sets=federal-electoral-districts`)
     .then((response) => {
   if (response.status === 200) {
     return response.json();
