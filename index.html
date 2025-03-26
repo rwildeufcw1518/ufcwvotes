@@ -57,7 +57,7 @@ function getConstituencyData(constituency) {  fetch(`https://raw.githubuserconte
   
 function getConstituencyName(postcode) {
     let postcodeUpper = postcode.toUpperCase();
-  fetch(`https://represent.opennorth.ca/postcodes/${postcodeUpper}/?sets=federal-electoral-districts`)
+  fetch(`https://represent.opennorth.ca/postcodes/${postcodeUpper}/?sets=federal-electoral-districts-2023-representation-order`)
     .then((response) => {
   if (response.status === 200) {
     return response.json();
