@@ -1,0 +1,134 @@
+{
+  "Abbotsford—South Langley": {
+    "new_riding": "Y"
+  },
+  "Burnaby Central": {
+    "new_riding": "Y"
+  },
+  "Burnaby North—Seymour": {
+    "new_riding": "N"
+  },
+  "Cariboo—Prince George": {
+    "new_riding": "N"
+  },
+  "Chilliwack—Hope": {
+    "new_riding": "N"
+  },
+  "Cloverdale—Langley City": {
+    "new_riding": "Y"
+  },
+  "Columbia—Kootenay—Southern Rockies": {
+    "new_riding": "Y"
+  },
+  "Coquitlam—Port Coquitlam": {
+    "new_riding": "N"
+  },
+  "Courtenay—Alberni": {
+    "new_riding": "N"
+  },
+  "Cowichan—Malahat—Langford": {
+    "new_riding": "N"
+  },
+  "Delta": {
+    "new_riding": "N"
+  },
+  "Esquimalt—Saanich—Sooke": {
+    "new_riding": "N"
+  },
+  "Fleetwood—Port Kells": {
+    "new_riding": "N"
+  },
+  "Kamloops—Shuswap—Central Rockies": {
+    "new_riding": "Y"
+  },
+  "Kamloops—Thompson—Nicola": {
+    "new_riding": "Y"
+  },
+  "Kelowna": {
+    "new_riding": "Y"
+  },
+  "Langley Township—Fraser Heights": {
+    "new_riding": "Y"
+  },
+  "Mission—Matsqui—Abbotsford": {
+    "new_riding": "Y"
+  },
+  "Nanaimo—Ladysmith": {
+    "new_riding": "N"
+  },
+  "New Westminster—Burnaby—Maillardville": {
+    "new_riding": "N"
+  },
+  "North Island—Powell River": {
+    "new_riding": "N"
+  },
+  "North Vancouver—Capilano": {
+    "new_riding": "N"
+  },
+  "Okanagan Lake West—South Kelowna": {
+    "new_riding": "Y"
+  },
+  "Pitt Meadows—Maple Ridge": {
+    "new_riding": "N"
+  },
+  "Port Moody—Coquitlam": {
+    "new_riding": "N"
+  },
+  "Prince George—Peace River—Northern Rockies": {
+    "new_riding": "N"
+  },
+  "Richmond Centre—Marpole": {
+    "new_riding": "N"
+  },
+  "Richmond East—Steveston": {
+    "new_riding": "N"
+  },
+  "Saanich—Gulf Islands": {
+    "new_riding": "N"
+  },
+  "Similkameen—South Okanagan—West Kootenay": {
+    "new_riding": "N"
+  },
+  "Skeena—Bulkley Valley": {
+    "new_riding": "N"
+  },
+  "South Surrey—White Rock": {
+    "new_riding": "N"
+  },
+  "Surrey Centre": {
+    "new_riding": "N"
+  },
+  "Surrey Newton": {
+    "new_riding": "N"
+  },
+  "Vancouver Centre": {
+    "new_riding": "N"
+  },
+  "Vancouver East": {
+    "new_riding": "N"
+  },
+  "Vancouver Fraserview—South Burnaby": {
+    "new_riding": "Y"
+  },
+  "Vancouver Granville": {
+    "new_riding": "N"
+  },
+  "Vancouver Kingsway": {
+    "new_riding": "N"
+  },
+  "Vancouver Quadra": {
+    "new_riding": "N"
+  },
+  "Vernon—Lake Country—Monashee": {
+    "new_riding": "Y"
+  },
+  "Victoria": {
+    "new_riding": "N"
+  },
+  "West Vancouver—Sunshine Coast—Sea to Sky Country": {
+    "new_riding": "N"
+  }
+  "Yukon": {
+    "new_riding": "N"
+  }
+}
