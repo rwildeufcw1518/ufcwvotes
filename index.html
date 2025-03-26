@@ -57,7 +57,6 @@ function getConstituencyData(constituency) {  fetch(`https://raw.githubuserconte
   
 function getConstituencyName(postcode) {
     let postcodeUpper = postcode.toUpperCase();
-    console.log(postcodeUpper);
   fetch(`https://represent.opennorth.ca/postcodes/${postcodeUpper}/?sets=federal-electoral-districts`)
     .then((response) => {
   if (response.status === 200) {
@@ -67,6 +66,7 @@ function getConstituencyName(postcode) {
     throw new Error('Something went wrong');
 })
     .then(data => {
+    console.log(data)
       constituency = data.boundaries_centroid[0].name;
       error.style.display = "none";
       outputText.style.display = "block";
@@ -74,6 +74,7 @@ function getConstituencyName(postcode) {
     getConstituencyData(constituency);
     })
   .catch((error) => {
+      console.log(data)
     console.log("Error!");
       errorMessage.style.display = "block";
       outputText.style.display = "none";
