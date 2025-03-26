@@ -32,7 +32,7 @@ form.addEventListener("submit", e => {
   let formData = new FormData(form)
   let postcode = formData.get("postcode")
   
-function getConstituencyData(constituency) {  fetch(`https://raw.githubusercontent.com/rwildeufcw1518/ufcwvotes/main/ridings.json`)
+function getConstituencyData(constituency) {  fetch(`https://raw.githubusercontent.com/rwildeufcw1518/ufcwvotes/main/ridingsfederal.json`)
   .then((response) => {
   if (response.status === 200) {
     return response.json();
@@ -42,7 +42,7 @@ function getConstituencyData(constituency) {  fetch(`https://raw.githubuserconte
 })
     .then(data => {
       if (data[constituency].new_riding == "Y")       {
-        constituencyInfo.innerHTML = `This is a new riding for the 2025 election, so may be different to the seat where you voted in 2021.` 
+        constituencyInfo.innerHTML = `This is a new riding or riding name for the 2025 election, so may be different to the seat where you voted in 2021.` 
       } else {
         constituencyInfo.innerHTML = ``
       }    
